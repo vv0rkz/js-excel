@@ -4,7 +4,7 @@
   "description": "Pure JavaScript Excel Application",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo 'No tests yet' && exit 0",
     "start": "cross-env NODE_ENV=development webpack serve --open",
     "build": "cross-env NODE_ENV=production webpack --mode production",
     "prepare": "husky",
