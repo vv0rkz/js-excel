@@ -7,7 +7,7 @@ import { Toolbar } from './components/toolbar/Toolbar'
 import { Formula } from './components/formula/Formula'
 
 const excel = new Excel('#app', {
-  components: [Header, Table, Toolbar, Formula],
+  components: [Header, Toolbar, Formula, Table],
 })
 
 excel.render()
